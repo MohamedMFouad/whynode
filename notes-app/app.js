@@ -1,6 +1,5 @@
- const fs = require('fs'); // bulit in node.
+ const getNotes = require('./utils');
 
-// fs.writeFileSync('notes.txt', 'This file was created by Node.js !');
+console.log(getNotes());
 
 
-fs.appendFileSync('notes.txt', ' My name is Mohamed')
